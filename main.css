@@ -43,7 +43,7 @@ ul {
 
 li {
   float: right;
-  font-family: 'Lato';
+  font-family: 'Bitter', 'Lato', 'Roboto';
 }
 
 li a, li a:visited:not(.active) {
@@ -67,14 +67,14 @@ li a:hover:not(.active) {
 }
 
 p {
-  font-family: 'Lato';
+  font-family: 'Lobster', 'Lato';
   font-size: 20px;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('Images/Home/Mainphoto.jpg');
+  background-image: url('images/Home/mainphoto2.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
