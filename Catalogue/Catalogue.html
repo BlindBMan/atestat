@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootstrap & CSS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+	<link type="text/css" rel="stylesheet" href="Catalogue.css">
+
+	<!-- Website Icon -->
+	<link rel="shortcut icon" type="image/icon" href="favicon2.ico">
+
+	<!-- JavaScript -->
+	<script src="SearchableList.js"></script>
+
+	<title>Catalogue</title>
+</head>
+<body>
+	<header class="container">
+    <div class="row">
+      <h1 class="col-sm-4">Foods</h1>
+      <nav class="col-sm-8 text-right">
+      	<ul>
+        	<li><a class="active" href="../Catalogue/Catalogue.html">Catalogue</a></li>
+        	<li><a href="../Map/Map.html">Map</a></li>
+        	<li><a href="../Home/Home.html">Home</a></li>
+      	</ul>
+      </nav>
+    </div>
+	</header>
+
+	<section class="jumbotron">
+     <div class="container">
+      <div class="row text-center">
+        <h2>The Best Dishes</h2>
+        <h3>From all over Europe</h3>
+      </div>
+     </div>
+    </section> 
+
+    <section class="container">
+    	<div class="row">
+    		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+	<ul id="SearchList" class="col-sm-8">
+	  <li><a href="#" class="header">A</a></li>
+	  <li><a href="#">Albania</a></li>
+	  <li><a href="#">Andorra</a></li>
+	  <li><a href="#">Armenia</a></li>
+	  <li><a href="#">Austria</a></li>
+	  <li><a href="#">Azerbaijan</a></li>
+
+	  <li><a href="#" class="header">B</a></li>
+	  <li><a href="#">Belarus</a></li>
+	  <li><a href="#">Belgium</a></li>
+	  <li><a href="#">Bosnia and Herzegovina</a></li>
+	  <li><a href="#">Bulgaria</a></li>
+
+	  <li><a href="#" class="header">C</a></li>
+	  <li><a href="#">Croatia</a></li>
+	  <li><a href="#">Cyprus</a></li>
+	  <li><a href="#">Czech Republic</a></li>
+
+	  <li><a href="#" class="header">D</a></li>
+	  <li><a href="#">Denmark</a></li>
+
+	  <li><a href="#" class="header">E</a></li>
+	  <li><a href="#">Estonia</a></li>
+
+	  <li><a href="#" class="header">F</a></li>
+	  <li><a href="#">Finland</a></li>
+	  <li><a href="#">France</a></li>
+
+	  <li><a href="#" class="header">G</a></li>
+	  <li><a href="#">Georgia</a></li>
+	  <li><a href="#">Germany</a></li>
+	  <li><a href="#">Greece</a></li>
+
+	  <li><a href="#" class="header">H</a></li>
+	  <li><a href="#">Hungary</a></li>
+
+	  <li><a href="#" class="header">I</a></li>
+	  <li><a href="#">Iceland</a></li>
+	  <li><a href="#">Ireland</a></li>
+	  <li><a href="#">Italy</a></li>
+
+	  <li><a href="#" class="header">K</a></li>
+	  <li><a href="#">Kazakhstan</a></li>
+
+	  <li><a href="#" class="header">L</a></li>
+	  <li><a href="#">Latvia</a></li>
+	  <li><a href="#">Liechtenstein</a></li>
+	  <li><a href="#">Lithuania</a></li>
+	  <li><a href="#">Luxembourg</a></li>
+
+	  <li><a href="#" class="header">M</a></li>
+	  <li><a href="#">Macedonia</a></li>
+	  <li><a href="#">Malta</a></li>
+	  <li><a href="#">Moldova</a></li>
+	  <li><a href="#">Monaco</a></li>
+	  <li><a href="#">Montenegro</a></li>
+
+	  <li><a href="#" class="header">N</a></li>
+	  <li><a href="#">Netherlands</a></li>
+	  <li><a href="#">Norway</a></li>
+
+	  <li><a href="#" class="header">P</a></li>
+	  <li><a href="#">Poland</a></li>
+	  <li><a href="#">Portugal</a></li>
+
+	  <li><a href="#" class="header">R</a></li>
+	  <li><a href="#">Romania</a></li>
+	  <li><a href="#">Russia</a></li>
+
+	  <li><a href="#" class="header">S</a></li>
+	  <li><a href="#">San Marino</a></li>
+	  <li><a href="#">Serbia</a></li>
+	  <li><a href="#">Slovakia</a></li>
+	  <li><a href="#">Slovenia</a></li>
+	  <li><a href="#">Spain</a></li>
+	  <li><a href="#">Sweden</a></li>
+	  <li><a href="#">Switzerland</a></li>
+
+	  <li><a href="#" class="header">T</a></li>
+	  <li><a href="#">Turkey</a></li>
+
+	  <li><a href="#" class="header">U</a></li>
+	  <li><a href="#">Ukraine</a></li>
+	  <li><a href="#">United Kingdom</a></li>
+
+	  <li><a href="#" class="header">V</a></li>
+	  <li><a href="#">Vatican City</a></li>
+
+	</ul>
+    	</div>
+    </section>
+
+	<footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017 Foods </p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+        	<a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></a>
+        </li>
+        <li class="col-sm-1">
+        	<a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></a>
+        </li>
+        <li class="col-sm-1">
+        	<a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+</body>
+</html>
