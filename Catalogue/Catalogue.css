@@ -43,7 +43,7 @@ ul {
 
 li {
   float: right;
-  font-family: 'Sansita', 'Lato', 'Roboto';
+  font-family: 'Bitter', 'Lato', 'Roboto', sans-serif;
 }
 
 li a, li a:visited:not(.active) {
