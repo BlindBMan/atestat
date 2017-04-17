@@ -10,6 +10,12 @@ footer .row {
   align-items: center;
 }
 
+header .row img {
+  width: 80px;
+  height: 80px;
+
+}
+
 header h1 {
   font-weight: 700;
   margin: 0;
@@ -24,6 +30,7 @@ header nav {
 header li {
   padding: 0 20px;
   margin: 0;
+  font-weight: 100;
 }
 
 /* Body */
@@ -43,7 +50,7 @@ ul {
 
 li {
   float: right;
-  font-family: 'Bitter', 'Lato', 'Roboto', sans-serif;
+  font-family: 'Bitter', 'Lato', 'Roboto';
 }
 
 li a, li a:visited:not(.active) {
@@ -51,7 +58,7 @@ li a, li a:visited:not(.active) {
   color: black;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 li a:hover:not(.active) {
@@ -74,7 +81,7 @@ p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('Images/cover.jpg');
+  background-image: url('images/cover.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -150,9 +157,6 @@ footer li img {
 /* Searchable List*/
 
 #myInput {
-    /*background-image: url('images/searchicon.png'); 
-    background-position: 10px 12px; 
-    background-repeat: no-repeat; */
     width: 100%; 
     font-size: 16px; 
     padding: 12px 20px 12px 40px; 
@@ -191,3 +195,6 @@ footer li img {
   clear: left;
 }
 
+.Letter {
+  
+}
