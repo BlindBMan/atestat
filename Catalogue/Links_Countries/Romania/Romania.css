@@ -123,25 +123,6 @@ p {
   font-size: 23px;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
 /* Footer */
 
 footer {

@@ -81,7 +81,7 @@ p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('images/cover.jpg');
+  background-image: url('Images/cover.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
